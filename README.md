@@ -1,4 +1,4 @@
-# #6Projeto Dio Wiki
+# #Projeto Dio Wiki
 
 O projeto Dio Wiki é uma aplicação web simples que permite aos usuários pesquisar repositórios no GitHub e exibir informações relevantes sobre eles, incluindo nome, descrição, linguagens e percentual de uso de cada linguagem.
 
@@ -48,5 +48,3 @@ Contribuições são bem-vindas! Se você tiver sugestões, melhorias ou correç
 Este projeto está licenciado sob a Licença MIT. Consulte o arquivo [LICENSE](./LICENSE) para obter mais informações.
 
 ---
-
-
