@@ -27,12 +27,14 @@ function App() {
         }
       }
     } catch (error) {
-      alert("Ocorreu um erro ao buscar as informações do repositório, Verifique!");
+      alert(
+        "Ocorreu um erro ao buscar as informações do repositório, Verifique!"
+      );
     }
   };
 
   const handleRemoveRepo = (id) => {
-    if (id) {     
+    if (id) {
       setRepos((prev) => prev.filter((repo) => repo.id !== id));
       return;
     }
@@ -47,8 +49,7 @@ function App() {
       />
       <Buttom onClick={handleSearchRepo} />
       {repos.map((repo) => (
-        <ItemRepo key={repo.id} repo={repo} onRemove={handleRemoveRepo}
-        />
+        <ItemRepo key={repo.id} repo={repo} onRemove={handleRemoveRepo} />
       ))}
     </Container>
   );
